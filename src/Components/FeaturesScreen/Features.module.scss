@@ -1,0 +1,46 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  justify-content: center; 
+  height: 100vh;          
+  text-align: center;
+}
+  .image {
+    width: 400px;   
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    margin: 10px 0;
+     font-family: "Unbounded", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    line-height: 2.2rem;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin: 10px 0 20px;
+     font-family: "Caveat Brush", cursive;
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  .nextbutton {
+    bottom:4rem;
+    right:2rem;
+    position:absolute;
+    font-size: 1.2rem;
+    border: 1px solid black;
+    width:100px;
+    height:50px;
+    border-radius: 12px;
+    background-color: #ffffff;
+    color: #169299;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }

@@ -1,0 +1,139 @@
+.form__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+    background:black;
+}
+
+.content__forms{
+    background-color: #ffffff;
+    padding: 4rem 1rem;
+    border-radius: 24px;
+}
+  .content__form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+    width:auto;
+    padding: 1rem 1rem;
+    color:rgb(0, 0, 0);
+    box-sizing: border-box;
+  }
+
+  .content__inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+  }
+
+  .content__form label {
+    border: 1px solid rgb(23, 23, 23);
+    display: flex;
+    outline: none;
+    align-items: center;
+    position: relative;
+    min-width: 268px;
+    height: 38px;
+    border-radius: 8px;
+  }
+
+  .content__form span {
+    position: absolute;
+    text-overflow: ellipsis;
+    transform-origin: left;
+    font-size: 12px;
+    left: 8px;
+    pointer-events: none;
+    transition: transform ease-out .1s
+  }
+
+  .content__form input {
+    width: 80%;
+    background:transparent;
+    border:0;
+    // border:none;
+    padding: 9px 8px 7px 8px;
+    text-overflow: ellipsis; 
+    font-size: 16px;    
+   
+  }
+
+    .content__form input:valid+span {
+      transform: scale(calc(10 / 12)) translateY(-10px);
+    }
+
+  .content__form input:valid {
+    padding: 14px 0 2px 8px;
+    font-size: 12px;
+     background:transparent; 
+     border:none;
+     outline:none;
+    
+  }
+
+  .content__ortext {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    column-gap: 18px;
+    color:rgb(0, 0, 0);
+    margin-top: 18px;
+  }
+
+  .content__ortext span:nth-child(3),
+   .content__ortext span:nth-child(1) {
+    display: flex;
+    width: 80%;
+    height: 1px;
+    background-color: rgb(0, 0, 0);
+    color:rgb(0, 0, 0);
+ }
+
+  .content__forgotbuttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+    row-gap: 21px;
+  }
+
+  .content__forgotbuttons button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    color: #00376b;
+  }
+
+  .content__forgotbuttons button:first-child {
+    color: #385185;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .content__form button {
+    background: rgb(0, 149, 246);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px 16px;
+    cursor: pointer;
+  }
+
+  .content__form button:hover {
+    background: rgb(24, 119, 242);
+  }
+
+  .content__form button:active:not(:hover) {
+    background: rgb(0, 149, 246);
+    opacity: .7;
+  };
