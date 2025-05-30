@@ -47,7 +47,7 @@ function ScreenThree() {
         ))}
       </div>
 
-     <a href="/feature/security" target="_self">
+     <a href="/#/feature/security" target="_self">
   <button className={styles.nextbutton}>Next</button>
 </a>
   

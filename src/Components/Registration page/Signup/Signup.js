@@ -118,7 +118,7 @@ function Signup() {
 
         <button type="submit"  className={styles.submit}>Submit</button>
         <p className={styles.signin}>
-          Already have an account? <a href="/signin" alt="loginpage">Signin</a>
+          Already have an account? <span onClick={()=>navigate('/signin')}>Signin</span>
         </p>
       </form>
     </div>

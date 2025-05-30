@@ -35,7 +35,7 @@
 
 
 import React, { lazy, Suspense } from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Signin from './Components/Registration page/Signin/Signin';
 
 const ScreenOne = lazy(() => import('./Components/Onboarding/ScreenOne'));
@@ -51,7 +51,7 @@ const Signup = lazy(() => import('./Components/Registration page/Signup/Signup')
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router >
       <Suspense fallback={<div style={{display:"flex",alignItems:"center", justifyContent:"center",height:"100vh"}}>Loading...</div>}>
         <Routes>
           <Route path="/" element={<ScreenOne />} />
