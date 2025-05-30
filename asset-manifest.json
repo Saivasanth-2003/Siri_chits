@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Siri_chits/static/css/main.e9f7f3fa.css",
-    "main.js": "/Siri_chits/static/js/main.217b266c.js",
+    "main.js": "/Siri_chits/static/js/main.6ff9df14.js",
     "static/css/420.d0982067.chunk.css": "/Siri_chits/static/css/420.d0982067.chunk.css",
     "static/js/420.fd217d06.chunk.js": "/Siri_chits/static/js/420.fd217d06.chunk.js",
     "static/css/27.26e0538c.chunk.css": "/Siri_chits/static/css/27.26e0538c.chunk.css",
     "static/js/27.56e135e1.chunk.js": "/Siri_chits/static/js/27.56e135e1.chunk.js",
     "static/css/197.4d2f1c01.chunk.css": "/Siri_chits/static/css/197.4d2f1c01.chunk.css",
-    "static/js/197.e53b75f0.chunk.js": "/Siri_chits/static/js/197.e53b75f0.chunk.js",
+    "static/js/197.8d33171b.chunk.js": "/Siri_chits/static/js/197.8d33171b.chunk.js",
     "static/js/43.08aacf44.chunk.js": "/Siri_chits/static/js/43.08aacf44.chunk.js",
     "static/css/85.19fc7a94.chunk.css": "/Siri_chits/static/css/85.19fc7a94.chunk.css",
     "static/js/85.44a91317.chunk.js": "/Siri_chits/static/js/85.44a91317.chunk.js",
@@ -20,7 +20,7 @@
     "static/css/926.19fc7a94.chunk.css": "/Siri_chits/static/css/926.19fc7a94.chunk.css",
     "static/js/926.78b5ed7e.chunk.js": "/Siri_chits/static/js/926.78b5ed7e.chunk.js",
     "static/css/35.1b13e8e6.chunk.css": "/Siri_chits/static/css/35.1b13e8e6.chunk.css",
-    "static/js/35.32943e74.chunk.js": "/Siri_chits/static/js/35.32943e74.chunk.js",
+    "static/js/35.e9ab09cc.chunk.js": "/Siri_chits/static/js/35.e9ab09cc.chunk.js",
     "static/js/488.abec6102.chunk.js": "/Siri_chits/static/js/488.abec6102.chunk.js",
     "static/js/204.c448f6ac.chunk.js": "/Siri_chits/static/js/204.c448f6ac.chunk.js",
     "static/media/bidding.jpg": "/Siri_chits/static/media/bidding.5dceb317b0e8d0b33d82.jpg",
@@ -33,13 +33,13 @@
     "static/media/Sirichits.png": "/Siri_chits/static/media/Sirichits.3fc6dc82a22a71954176.png",
     "index.html": "/Siri_chits/index.html",
     "main.e9f7f3fa.css.map": "/Siri_chits/static/css/main.e9f7f3fa.css.map",
-    "main.217b266c.js.map": "/Siri_chits/static/js/main.217b266c.js.map",
+    "main.6ff9df14.js.map": "/Siri_chits/static/js/main.6ff9df14.js.map",
     "420.d0982067.chunk.css.map": "/Siri_chits/static/css/420.d0982067.chunk.css.map",
     "420.fd217d06.chunk.js.map": "/Siri_chits/static/js/420.fd217d06.chunk.js.map",
     "27.26e0538c.chunk.css.map": "/Siri_chits/static/css/27.26e0538c.chunk.css.map",
     "27.56e135e1.chunk.js.map": "/Siri_chits/static/js/27.56e135e1.chunk.js.map",
     "197.4d2f1c01.chunk.css.map": "/Siri_chits/static/css/197.4d2f1c01.chunk.css.map",
-    "197.e53b75f0.chunk.js.map": "/Siri_chits/static/js/197.e53b75f0.chunk.js.map",
+    "197.8d33171b.chunk.js.map": "/Siri_chits/static/js/197.8d33171b.chunk.js.map",
     "43.08aacf44.chunk.js.map": "/Siri_chits/static/js/43.08aacf44.chunk.js.map",
     "85.19fc7a94.chunk.css.map": "/Siri_chits/static/css/85.19fc7a94.chunk.css.map",
     "85.44a91317.chunk.js.map": "/Siri_chits/static/js/85.44a91317.chunk.js.map",
@@ -52,12 +52,12 @@
     "926.19fc7a94.chunk.css.map": "/Siri_chits/static/css/926.19fc7a94.chunk.css.map",
     "926.78b5ed7e.chunk.js.map": "/Siri_chits/static/js/926.78b5ed7e.chunk.js.map",
     "35.1b13e8e6.chunk.css.map": "/Siri_chits/static/css/35.1b13e8e6.chunk.css.map",
-    "35.32943e74.chunk.js.map": "/Siri_chits/static/js/35.32943e74.chunk.js.map",
+    "35.e9ab09cc.chunk.js.map": "/Siri_chits/static/js/35.e9ab09cc.chunk.js.map",
     "488.abec6102.chunk.js.map": "/Siri_chits/static/js/488.abec6102.chunk.js.map",
     "204.c448f6ac.chunk.js.map": "/Siri_chits/static/js/204.c448f6ac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9f7f3fa.css",
-    "static/js/main.217b266c.js"
+    "static/js/main.6ff9df14.js"
   ]
 }
