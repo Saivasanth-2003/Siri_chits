@@ -51,7 +51,7 @@ const Signup = lazy(() => import('./Components/Registration page/Signup/Signup')
 
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Suspense fallback={<div style={{display:"flex",alignItems:"center", justifyContent:"center",height:"100vh"}}>Loading...</div>}>
         <Routes>
           <Route path="/" element={<ScreenOne />} />
