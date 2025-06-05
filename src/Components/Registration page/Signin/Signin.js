@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
 import styles from './Signin.module.scss';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 function Signin() {
-
+  const navigate =useNavigate();
   const [message, isSetMessage]= useState();
    const [formData, setFormData] = useState({
       
@@ -31,6 +32,7 @@ function Signin() {
       const response = await axios.post('http://localhost:5000/auth/users/login', formData);
       if (response.status === 200) {
         isSetMessage(response.data.message || 'login Successful!..');
+        navigate('/appscreen')
         resetForm();
     }}catch(error){
          if (error.response) {
